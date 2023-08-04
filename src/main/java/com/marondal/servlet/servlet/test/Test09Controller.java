@@ -21,6 +21,7 @@ public class Test09Controller extends HttpServlet{
 		out.println("<h2><b>" + request.getParameter("name") + "님 지원이 완료되었습니다." + "</b></h2><hr>");
 		out.println("<div>지원내용\n" + request.getParameter("contents"));
 		out.println("</div></body></html>");
+//		
 		
 	}
 
