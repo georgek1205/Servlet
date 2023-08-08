@@ -27,6 +27,7 @@
 		<label>민트초코<input type = "checkbox" name = "food" value = "민초"></label>
 		<label>하와이안 피자<input type = "checkbox" name = "food" value = "피자"></label>
 		<label>번데기<input type="checkbox" name = "food" value = "번데기"></label>
+		<!--셀렉트박스는 밸류를 집적 채우지않아도 문자열 그대로 패러미터에 저장이되지만 체크박스는 안된다(on으로뜸) -->
 		
 		
 		<button type = "submit">입력</button>
