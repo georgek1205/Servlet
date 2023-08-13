@@ -72,7 +72,7 @@
     			<tr>
     				<td><%= temp.get("id") %></td>
     				<td><img src = <%= temp.get("image") %> width = "70" height = "100"></td>
-    				<td><a href = "/jsp/test/test08.jsp?title=<%= temp.get("title")%>&author=<%=temp.get("author")%>&publisher=<%=temp.get("publisher")%>&image=<%= temp.get("image")%>" class = "display-4 text-primary"><%= temp.get("title") %></a></td>
+    				<td><a href = "/jsp/test/test08.jsp?id=<%=temp.get("id")%>" class = "display-4 text-primary"><%= temp.get("title")%></a></td>
     			</tr>
     			<% } %>
     		

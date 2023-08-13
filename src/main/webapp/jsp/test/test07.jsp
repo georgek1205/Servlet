@@ -41,7 +41,7 @@
 			<tbody>
 				<% for(Map<String, Object> temp : list)  
 				{ if(temp.get("menu").equals(request.getParameter("menu"))){ 
-					if(request.getParameter("forPoint").equals("on")) { 
+					if(request.getParameter("forPoint") != null) { 
 						if(Double.parseDouble(temp.get("point").toString()) > 4.0) {
 					%>
 				<tr>
