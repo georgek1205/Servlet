@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-		<nav class = "bg-danger main menu">
+		<nav class = "bg-danger mainmenu">
 			<ul class ="nav nav-fill">
 				<li class ="nav-item"><a href ="/jspt/test/test01/test01.jsp" class ="nav-link text-white">전체</a></li>
 				<li class ="nav-item"><a href ="/jspt/test/test01/test01.jsp?id=지상파" class ="nav-link text-white">지상파</a></li>
